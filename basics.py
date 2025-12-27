@@ -138,9 +138,24 @@
 # #display calender
 # print(calendar.month(yy,mm))
 
-def my_funtion():
-    for i in range(1,21):
-        if i == 20:
-            print("you got this")
 
-my_funtion()
+# def my_funtion():
+#     for i in range(1,21):
+#         if i == 20:
+#             print("you got this")
+
+# my_funtion()
+
+
+# from random import randint
+# dice_images = ["1", "2", "3", "4", "5", "6"]
+# dice_num = randint(1 , 6)
+# print(dice_images[dice_num])
+
+
+year = int(input("what's your year of birth ?"))
+
+if year >  1980 and year < 1994:
+    print("you are a millennial.")
+elif year > 1994:
+    print("you are a Gen Z.")
