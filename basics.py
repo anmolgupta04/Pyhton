@@ -153,9 +153,74 @@
 # print(dice_images[dice_num])
 
 
-year = int(input("what's your year of birth ?"))
+# year = int(input("what's your year of birth ?"))
 
-if year >  1980 and year < 1994:
-    print("you are a millennial.")
-elif year >= 1994:
-    print("you are a Gen Z.")
+# if year >  1980 and year < 1994:
+#     print("you are a millennial.")
+# elif year >= 1994:
+#     print("you are a Gen Z.")
+
+# try:
+#     age = int(input("How old are you?"))
+# except ValueError:
+#     print("You typed a invalid number. Please type a numerical integer such a 14")
+#     age = int(input("how old are you?"))
+
+# if age > 18:
+#     print(f"you can drive at age {age}.")
+
+
+# word_per_page = 0 
+# pages = int(input("No. of pages: "))
+# word_per_page = int(input("No. of words per page: "))
+# total_words = pages * word_per_page
+# print(total_words)
+
+
+import random
+import math
+
+
+# def mutate(a_list):
+#     b_list = []
+#     new_item = 0
+#     for item in a_list:
+#         new_item = item * 2 
+#         new_item += random.randint(1, 3)
+#         new_item = math.add(new_item, item)
+#         b_list.append(new_item)
+#     print(b_list)
+
+
+# mutate([1, 2, 3, 5, 8, 13])
+
+
+# Target is the number up to which we count
+
+# def fizz_buzz(target):
+#     for number in range(1, target + 1):
+#         if number % 3 == 0 or number % 5 == 0:
+#             print("FizzBuzz")
+#         if number % 3 == 0:
+#             print("Fizz")
+#         if number % 5 == 0:
+#             print("Buzz")
+#         else:
+#             print([number])
+
+
+# from turtle import Turtle, Screen
+# timmy = Turtle()
+# print(timmy)
+# timmy.shape("turtle")
+# timmy.color("coral")
+# timmy.forward(100)
+
+# my_screen = Screen()
+# print(my_screen.canvheight)
+# my_screen.exitonclick()
+
+
+
+
+
