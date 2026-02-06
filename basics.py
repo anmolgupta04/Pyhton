@@ -237,6 +237,39 @@ import math
 # Python tries to reuse the same memory location for identical strings."""
 
 
+# Read input
+# n = int(input())
+# arr = []
+# for _ in range(n):
+#     arr.append(int(input()))
 
+# # Method 1: Two-pointer approach (In-place, optimal)
+# # This maintains relative order and is O(n) time, O(1) space
+# left = 0  # Pointer for position to place next non-zero element
+
+# for right in range(n):
+#     if arr[right] != 0:
+#         # Swap non-zero element to the left pointer position
+#         arr[left], arr[right] = arr[right], arr[left]
+#         left += 1
+
+# # Print the result
+# print(' '.join(map(str, arr)))
+
+# Read input
+n = int(input())
+arr = []
+for _ in range(n):
+    arr.append(int(input()))
+
+# Collect all non-zero elements first
+result = [x for x in arr if x != 0]
+
+# Count zeros and append them
+zero_count = arr.count(0)
+result.extend([0] * zero_count)
+
+# Print the result
+print(' '.join(map(str, result)))
 
 
