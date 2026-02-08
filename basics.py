@@ -257,19 +257,19 @@ import math
 # print(' '.join(map(str, arr)))
 
 # Read input
-n = int(input())
-arr = []
-for _ in range(n):
-    arr.append(int(input()))
+# n = int(input())
+# arr = []
+# for _ in range(n):
+#     arr.append(int(input()))
 
-# Collect all non-zero elements first
-result = [x for x in arr if x != 0]
+# # Collect all non-zero elements first
+# result = [x for x in arr if x != 0]
 
-# Count zeros and append them
-zero_count = arr.count(0)
-result.extend([0] * zero_count)
+# # Count zeros and append them
+# zero_count = arr.count(0)
+# result.extend([0] * zero_count)
 
-# Print the result
-print(' '.join(map(str, result)))
+# # Print the result
+# print(' '.join(map(str, result)))
 
 
